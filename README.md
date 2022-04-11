@@ -16,5 +16,5 @@ In order to use run.py you need to download the model from here:
 
 And put it in the model folder:
 
-    https://github.com/MurzaevMisha/ak_emopy/tree/main/models/
+    ./models/
 
