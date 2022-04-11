@@ -161,7 +161,7 @@ class ResNet(ImageClassificationBase):
 
 
 model = to_device(ResNet(1, len(classes_train)), device)
-model.load_state_dict(torch.load('./models/emotion_detection_acc0.5509355068206787.pth'))
+model.load_state_dict(torch.load('./models/emotion_detection.pth'))
 
 def evaluate(model, val_loader):
     model.eval()
