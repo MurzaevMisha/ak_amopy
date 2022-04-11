@@ -2,7 +2,7 @@
 
 ## This is the model that defines the emotion on the face.
 
-You can read about the libraries we used here:
+You can see about the libraries that we used here:
 
     https://github.com/MurzaevMisha/ak_emopy/blob/main/requirements.txt
 
@@ -16,5 +16,5 @@ In order to use run.py you need to download the model from here:
 
 And put it in the model folder:
 
-    https://github.com/MurzaevMisha/ak_emopy/tree/main/models
+    https://github.com/MurzaevMisha/ak_emopy/tree/main/models/
 
