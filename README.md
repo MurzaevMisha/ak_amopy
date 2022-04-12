@@ -4,7 +4,7 @@
 
 You can see about the libraries that we used here:
 
-    requirts.txt
+    requirements.txt
 
 In order to train the model, you need to download train_data from here(full dataset):
 
