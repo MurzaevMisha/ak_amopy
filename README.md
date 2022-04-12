@@ -4,7 +4,7 @@
 
 You can see about the libraries that we used here:
 
-    https://github.com/MurzaevMisha/ak_emopy/blob/main/requirements.txt
+    requirements.txt
 
 In order to train the model, you need to download train_data from here(full dataset):
 
@@ -16,5 +16,5 @@ In order to use run.py you need to download the model from here:
 
 And put it in the model folder:
 
-    ./models/
+    ./models
 
