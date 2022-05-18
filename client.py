@@ -18,10 +18,10 @@ from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 from email.mime.base import MIMEBase
 
-YA_HOST = "smtp.gmail.com"
-YA_PORT = 587
-YA_USER = "akaemopy@gmail.com"
-YA_PASSWORD = "!@#4qweR"
+YA_HOST = ""
+YA_PORT = 
+YA_USER = ""
+YA_PASSWORD = ""
 
 
 def get_face():
@@ -54,9 +54,9 @@ def get_face():
 
 
 def send_email(text=None, template=None):
-    sender = "akaemopy@gmail.com"
-    to = 'ak.emopy.server@gmail.com'
-    password = "!@#4qweR"
+    sender = ""
+    to = ''
+    password = ""
     server = smtplib.SMTP("smtp.gmail.com", 587)
     server.starttls()
     try:
@@ -161,10 +161,10 @@ def play_music(emotinal):
     pygame.quit()
 
 def del_email():
-    server = "smtp.gmail.com"
-    port = "587"
-    login = "akaemopy@gmail.com"
-    password = "!@#4qweR"
+    server = ""
+    port = ""
+    login = ""
+    password = ""
     putdir="/home/pavel/"
 
     print ("- подключаемся к ",server)
