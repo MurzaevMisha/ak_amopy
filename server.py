@@ -180,7 +180,7 @@ def main():
         def epoch_end(self, epoch, result):
             return a
 
-    class ResNet(ImageClassificationBase):
+    class InceptionV3(ImageClassificationBase):
         def __init__(self, in_channels, num_classes):
             super().__init__()
             
